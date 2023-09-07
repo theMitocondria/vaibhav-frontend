@@ -7,12 +7,14 @@ module.exports = {
   ],
 
   theme: {
+    
     extend: {
+    
       backgroundImage: {
-        'hero-pattern': "url(https://placekitten.com/1400)"
+        'leafs': "url(https://res.cloudinary.com/dycitvrpg/image/upload/v1694093148/4dbce400-7035-4548-baf0-99dea16e7f95_1_kcgo3d.png)"
       },
       colors : {
-       "kala":"#f5f9dc"
+       "gray":"#938F8F"
       },
     },
   },

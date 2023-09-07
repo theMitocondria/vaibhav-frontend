@@ -1,20 +1,17 @@
+import Footer from "@/component/Footer";
+import Landing from "@/component/Landing";
+import Navbar from "@/component/Navbar";
 
 
 
 export default function Home() {
   return (
    <div>
-     
-    <div className= " flex justify-center items-center bg-hero-pattern  h-96 w-[100%] ">
-      
-      <h1 className="" >
-        hi this side gautam khatri
-      </h1>
+     <Navbar/>
+     <Landing/>
 
-
-
-    </div>
-       
+     <Footer />
+   
    </div>
   )
 }
