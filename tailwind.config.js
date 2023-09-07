@@ -11,7 +11,10 @@ module.exports = {
     extend: {
     
       backgroundImage: {
-        'leafs': "url(/leaf.png)"
+        'leafs': "url(/leaf.png)",
+        'hello':"url(/hello.png)",
+        'products':"url(/products.png)",
+        "bioplastic":"url(/biodegrableplastic.png)"
         
       },
       colors : {
