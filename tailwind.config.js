@@ -11,11 +11,15 @@ module.exports = {
     extend: {
     
       backgroundImage: {
-        'leafs': "url(/leaf.png)"
-        
+        'leafs': "url(/leaf.png)",
+        'messages':"url(/message.png)",
+        'envelope':"url(/envelope.png)",
+        'map':"url(/map.png)",
+        'phone':"url(/phone.png)",
       },
       colors : {
-       "gray":"#938F8F"
+       "gray":"#938F8F",
+       "light-gray":"#CCCBD0"
       },
     },
   },
