@@ -11,7 +11,8 @@ module.exports = {
     extend: {
     
       backgroundImage: {
-        'leafs': "url(https://res.cloudinary.com/dycitvrpg/image/upload/v1694093148/4dbce400-7035-4548-baf0-99dea16e7f95_1_kcgo3d.png)"
+        'leafs': "url(/leaf.png)"
+        
       },
       colors : {
        "gray":"#938F8F"
