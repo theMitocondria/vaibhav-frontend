@@ -7,10 +7,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   //   let [width, setwidth] = useState();
-  let width = globalThis.window.innerWidth;
-  useEffect(() => {
-    width = globalThis.window.innerWidth;
-  }, [globalThis.window]);
+//   let width = globalThis.window.innerWidth;
+//   useEffect(() => {
+//     width = globalThis.window.innerWidth;
+//   }, [globalThis.window]);
 
   // // let width = globalThis.window.innerWidth;
   // console.log(globalThis.window);
@@ -19,10 +19,11 @@ export default function Navbar() {
 
 
 
-  width > 500 ? (width = width / 2) : width;
-  console.log(width);
+//   width > 500 ? (width = width / 2) : width;
+//   console.log(width);
 
-  const dummy = width + "px"
+//   const dummy = width + "px"
+let width = 500
 
   return (
     <div className=" flex border-b border-b-2 p-4 px-6 items-center justify-between">
