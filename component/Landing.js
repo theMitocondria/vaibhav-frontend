@@ -18,7 +18,6 @@ export default function Landing() {
       <button className="border border-1 mt-16 text-white bg-black px-8 py-4 l rounded-full"><p className="md:text-2xl">Let's Talk</p></button>
       <div className="hidden sm:block">
       <div className="absolute bottom-0   z-[-1] right-0 w-[50%]  h-[100%] bg-leafs bg-no-repeat bg-fit bg-center"></div>
-      {/* <div class="absolute bottom-0   z-[-1] right-0 w-[50%]  h-[100%] bg-[] bg-no-repeat bg-fit bg-center"></div> */}
       </div>
     </div>
   );
