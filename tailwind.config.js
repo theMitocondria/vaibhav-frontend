@@ -23,8 +23,9 @@ module.exports = {
 
         'bp1':"url(/goli.png)",
         'bp2':"url(/greengp.png)",
-        "bp3":"url(/honey.png)"
+        "bp3":"url(/honey.png)",
         
+        "form":"url(/form.png)"
 
       },
       colors : {

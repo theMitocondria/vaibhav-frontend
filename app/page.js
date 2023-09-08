@@ -6,6 +6,8 @@ import SendMessage from "@/component/SendMessage";
 import BuySell from "@/component/BuySell";
 import OurProducts from "@/component/OurProducts";
 import ProductList from "@/component/ProductList";
+import ProjectManagement from "@/component/ProjectManagement";
+import EPRFORM from "@/component/EPRFORM";
 
 
 
@@ -18,9 +20,12 @@ export default function Home() {
      <BuySell />
      <Epr/>
      <OurProducts />
+     <ProjectManagement/>
      <SendMessage/>
      <Footer />
      
+
+
    </div>
   )
 }

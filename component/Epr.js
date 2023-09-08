@@ -1,6 +1,9 @@
+'use client'
+import { useRouter } from "next/navigation";
 import React from "react";
-import Image from "next/image";
+
 function Epr() {
+  const router = useRouter();
   return (
     <div className=" bg-black p-6 sm:p-12 items-center">
       <div>
@@ -16,7 +19,7 @@ function Epr() {
             .Trust the one-stop solution from EPR Registration to Fulfillment.
             Just few steps away from your goals, click on the button below and stay ahead of them.
           </p>
-          <button className="bg-black rounded-2xl p-1 text-white pl-5 pr-5 hover:bg-gray">Schedule Consultation</button>
+          <button onClick={()=>{console.log("i am working");router.push("/epr")}} className="bg-black rounded-2xl p-1 text-white pl-5 pr-5 hover:bg-gray" >Schedule Consultation</button>
         </div>
         <div className=" w-0 sm:w-[35%]">
           <img src="/rs.png" className="h-full w-full bg-cover" />
