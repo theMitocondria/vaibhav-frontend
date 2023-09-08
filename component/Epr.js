@@ -10,7 +10,7 @@ function Epr() {
         <h1 className="text-white text-center text-5xl m-6 mb-12 font-bold font-ubuntu">Empower your Sustainability Goals</h1>
       </div>
      <div className="flex justify-center">
-     <div className="flex bg-white rounded-2xl sm:rounded-[6rem] w-3/4">
+     <div className="flex bg-white rounded-2xl sm:rounded-[3rem] w-3/4">
         <div className="p-8 w-full sm:w-[65%]">
           <h1 className=" text-4xl font-bold mt-8 text-left">Fulfill your <span className=" text-gray font-extrabold">EPR </span> targets </h1>
           <h1 className=" text-4xl font-bold mb-6">with Ease</h1>
