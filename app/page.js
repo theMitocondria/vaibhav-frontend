@@ -6,6 +6,7 @@ import SendMessage from "@/component/SendMessage";
 import BuySell from "@/component/BuySell";
 import OurProducts from "@/component/OurProducts";
 import ProductList from "@/component/ProductList";
+import OurCustomers from "@/component/OurCustomers";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
      <BuySell />
      <Epr/>
      <OurProducts />
+     <OurCustomers />
      <SendMessage/>
      <Footer />
      
