@@ -8,6 +8,8 @@ import OurProducts from "@/component/OurProducts";
 import ProductList from "@/component/ProductList";
 import ProjectManagement from "@/component/ProjectManagement";
 import EPRFORM from "@/component/EPRFORM";
+import OurCustomers from "@/component/OurCustomers";
+
 
 
 
@@ -21,6 +23,7 @@ export default function Home() {
      <Epr/>
      <OurProducts />
      <ProjectManagement/>
+     <OurCustomers />
      <SendMessage/>
      <Footer />
      
