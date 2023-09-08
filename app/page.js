@@ -1,3 +1,4 @@
+import Epr from "@/component/Epr";
 import Footer from "@/component/Footer";
 import Landing from "@/component/Landing";
 import Navbar from "@/component/Navbar";
@@ -10,9 +11,10 @@ export default function Home() {
    <div>
      <Navbar/>
      <Landing/>
+     <Epr/>
      <SendMessage/>
      <Footer />
-   
+     
    </div>
   )
 }
