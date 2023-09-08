@@ -21,9 +21,9 @@ module.exports = {
         'hello':"url(/hello.png)",
         'products':"url(/products.png)",
 
-        'bproduct1':"url(/Biodegradable-Additive-Masterbatch.jpg)",
-        'bproduct2':"url(/greengp.jpg)",
-        "bproduct3":"url(/honey.jpg)"
+        'bp1':"url(/goli.png)",
+        'bp2':"url(/greengp.png)",
+        "bp3":"url(/honey.png)"
         
 
       },

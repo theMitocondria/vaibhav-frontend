@@ -2,7 +2,7 @@ import React from 'react'
 
 function SendMessage() {
   return (
-    <div className='flex sm:h-screen pl-0'>
+    <div id='contactus' className='flex sm:h-screen pl-0'>
 
         <div className='w-[40%] h-full  bg-messages bg-cover  bg-no-repeat p-12 pt-40 hidden sm:block'>
            <div className='h-[20%]'>
