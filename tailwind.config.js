@@ -12,10 +12,16 @@ module.exports = {
     
       backgroundImage: {
         'leafs': "url(/leaf.png)",
+
         'messages':"url(/message.png)",
         'envelope':"url(/envelope.png)",
         'map':"url(/map.png)",
         'phone':"url(/phone.png)",
+
+        'hello':"url(/hello.png)",
+        'products':"url(/products.png)",
+        "bioplastic":"url(/biodegrableplastic.png)"
+
       },
       colors : {
        "gray":"#938F8F",
