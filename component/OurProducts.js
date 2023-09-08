@@ -1,12 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
+
 
 export default function OurProducts() {
   return (
-    <div className='bg-products h-screen'>
+    <div className='bg-products pb-32 sm:pb-0 sm:h-screen'>
 
-        <p className='text-white  font-extrabold pt-12 text-center text-4xl sm:text-6xl'>Our Products</p>
+        <p className='text-white pb-8 sm:pb-0  font-extrabold pt-12 text-center text-4xl sm:text-6xl'>Our Products</p>
 
-        <div className=' flex-col sm:flex-row flex justify-center items-center h-full' >
+        <div className=' flex-col  sm:flex-row flex justify-center items-center h-full' >
             <button className='sm:w-[27%]  sm:h-[40%] w-[60%] mb-5 h-[40%] sm:hover:h-[55%]  transition-all duration-500  mr-2 rounded-xl sm:rounded-none sm:rounded-l-3xl flex flex-col items-center justify-evenly bg-gray'>
                 <p className='text-white text-center text-2xl sm:text-3xl font-extrabold mt-4 '>Biodegradable Plastic</p>
                 <p className='text-white text-center mx-4'>
@@ -14,8 +16,8 @@ export default function OurProducts() {
             d
                 
                 </p>
-                <p className='bg-black text-white py-2 mb-1  w-fit px-6 rounded-full'>
-                    See All product
+                <p  className='bg-black text-white py-2 mb-1  w-fit px-6 rounded-full'>
+                    <Link href='/products'>See All product</Link>
                 </p>
             </button>
             <button className='sm:w-[27%]  sm:h-[40%] w-[60%] h-[40%] mb-5   text-center sm:hover:h-[55%] transition-all duration-500 rounded-xl sm:rounded-none sm:rounded-r-3xl flex flex-col items-center justify-evenly bg-white'>
@@ -26,7 +28,7 @@ export default function OurProducts() {
                    
                 </p>
                 <p className='bg-black text-white mb-2 py-2 w-fit px-6 rounded-full'>
-                    See All product
+                  <Link href='/products'>See All product</Link>
                 </p>
             </button>
         </div>

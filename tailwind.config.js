@@ -20,7 +20,11 @@ module.exports = {
 
         'hello':"url(/hello.png)",
         'products':"url(/products.png)",
-        "bioplastic":"url(/biodegrableplastic.png)"
+
+        'bproduct1':"url(/Biodegradable-Additive-Masterbatch.jpg)",
+        'bproduct2':"url(/greengp.jpg)",
+        "bproduct3":"url(/honey.jpg)"
+        
 
       },
       colors : {

@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+.flip-card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    perspective: 100px;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flip-card-front {
+    background-color: #fff;
+  }
+  
+  .flip-card-back {
+    background-color: #ccc;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card:hover .flip-card-front, .flip-card:hover .flip-card-back {
+    transform: rotateY(180deg);
+  } */
+
+

@@ -5,6 +5,7 @@ import Navbar from "@/component/Navbar";
 import SendMessage from "@/component/SendMessage";
 import BuySell from "@/component/BuySell";
 import OurProducts from "@/component/OurProducts";
+import ProductList from "@/component/ProductList";
 
 
 
@@ -14,13 +15,10 @@ export default function Home() {
    <div>
      <Navbar/>
      <Landing/>
-
+     <BuySell />
      <Epr/>
+     <OurProducts />
      <SendMessage/>
-
-    <BuySell />
-    <OurProducts />
-
      <Footer />
      
    </div>
