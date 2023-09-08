@@ -3,33 +3,19 @@
 import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 // import { NavLink } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
+  const router = useRouter()
   const [isOpen, setIsOpen] = useState(false);
-  //   let [width, setwidth] = useState();
-//   let width = globalThis.window.innerWidth;
-//   useEffect(() => {
-//     width = globalThis.window.innerWidth;
-//   }, [globalThis.window]);
 
-  // // let width = globalThis.window.innerWidth;
-  // console.log(globalThis.window);
-
-  //   console.log(width);
-
-
-
-//   width > 500 ? (width = width / 2) : width;
-//   console.log(width);
-
-//   const dummy = width + "px"
-let width = 500
+  let width = 500
 
   return (
     <div className=" flex border-b border-b-2 p-4 px-6 items-center justify-between">
-      <p className="text-2xl font-bold">
+      <button  onClick={() => {router.push('/')}} className="text-2xl font-bold">
         <span className="  text-gray">S</span>carbon
-      </p>
+      </button>
 
       <button className="mx-8  border rounded-3xl border-2 px-3 py-1">
         Contact Us
