@@ -6,7 +6,7 @@ import React from 'react'
 function ProjectManagement() {
   const router = useRouter();
   return (
-    <div className=" bg-black p-6 sm:p-12 items-center">
+    <div id='projectmanagement' className=" bg-black p-6 sm:p-12 items-center">
     <div>
       <h1 className="text-white text-center text-5xl m-6 mb-12 font-bold font-ubuntu">Project Management</h1>
     </div>

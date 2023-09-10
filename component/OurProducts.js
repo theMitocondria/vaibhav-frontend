@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation'
 export default function OurProducts() {
     const router = useRouter()
   return (
-    <div className='bg-products pb-32  sm:pb-0 sm:h-screen'>
+    <div id='products' className='bg-products pb-32  sm:pb-0 sm:h-screen'>
 
         <p className='text-white pb-8 sm:pb-0  font-extrabold pt-12 text-center text-4xl sm:text-6xl'>Our Products</p>
 

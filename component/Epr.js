@@ -5,7 +5,7 @@ import React from "react";
 function Epr() {
   const router = useRouter();
   return (
-    <div className=" bg-black p-6 sm:p-12 items-center">
+    <div id='epr' className=" bg-black p-6 sm:p-12 items-center">
       <div>
         <h1 className="text-white text-center text-5xl m-6 mb-12 font-bold font-ubuntu">Empower your Sustainability Goals</h1>
       </div>
