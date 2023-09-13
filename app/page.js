@@ -27,7 +27,7 @@ export default function Home() {
      <OurCustomers />
      <SendMessage/>
      <Footer />
-     <BlogForm />
+     {/* <BlogForm /> */}
 
 
    </div>
