@@ -226,16 +226,7 @@ const BlogForm = () => {
     console.log('creading blog')
   
     try {
-      // const response = await fetch('http://localhost:4000/blog/new', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify(formData),
-      // });  
-      // const message = await response.json();
-
-      // console.log(message);
+     
 
       const formdataa=new FormData();
 
@@ -309,9 +300,9 @@ const BlogForm = () => {
             className="w-full border border-gray-300 rounded py-2 px-3 mb-2"
           />
         ))}
-        <button type="button" onClick={addSubheadingField} className="text-blue-500 hover:text-blue-700">
+        {/* <button type="button" onClick={addSubheadingField} className="text-blue-500 hover:text-blue-700">
           Add Subheading
-        </button>
+        </button> */}
       </div>
       <div className="mb-4">
         <label className="block text-gray-700 font-bold mb-2">Descriptions:</label>
@@ -324,9 +315,9 @@ const BlogForm = () => {
             className="w-full border border-gray-300 rounded py-2 px-3 mb-2"
           />
         ))}
-        <button type="button" onClick={addDescriptionField} className="text-blue-500 hover:text-blue-700">
+        {/* <button type="button" onClick={addDescriptionField} className="text-blue-500 hover:text-blue-700">
           Add Description
-        </button>
+        </button> */}
       </div>
       {/* <div className="mb-4">
         <label htmlFor="image" className="block text-gray-700 font-bold mb-2">

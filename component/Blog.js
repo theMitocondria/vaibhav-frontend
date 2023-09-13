@@ -25,7 +25,10 @@ export default function Blog() {
     }
 
     apiCall();
+   
   }, []);
+
+  console.log(Data)   
   
   return (
     <div className=" bg-zinc-50">
@@ -47,7 +50,7 @@ export default function Blog() {
             subheading={element.subheading}
             description={element.description}
             image={element.image}
-            key={element.id} // You should add a unique key prop when rendering a list of components
+            id={element._id} // You should add a unique key prop when rendering a list of components
           />
         ))} 
         
