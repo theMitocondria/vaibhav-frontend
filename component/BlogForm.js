@@ -255,8 +255,9 @@ const BlogForm = () => {
       if (message.success == true) {
         // The request was successful, you can handle the response here if needed
         console.log('Blog post created successfully');
+        window.alert("created");
         // Optionally, you can redirect the user to a success page or perform other actions
-        
+
       } else {
         // Handle errors here
         console.error('Error creating blog post:', response.statusText);

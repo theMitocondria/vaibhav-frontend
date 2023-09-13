@@ -10,7 +10,7 @@ export default function page() {
         <Navbar />
         <Blog />
         <Footer />
-        <BlogPage />
+        {/* <BlogPage /> */}
     </div>
   )
 }
