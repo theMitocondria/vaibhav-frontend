@@ -32,8 +32,13 @@ const SignupModal = ({ isOpen, onClose }) => {
   const signupwithgoogle = async() => {
     console.log("pusing to new page of the router")
     router.push("https://register-bpwp.onrender.com/auth/google")
+   // router.push("http:localhost:3000/auth/google");
     const data = await fetch("https://register-bpwp.onrender.com/auth/google");
-
+   
+    if(data.success=='true'){
+      router.push("/");
+      const message = await data.json();
+    }
   }
 
   const handleSubmit = async (e) => {
@@ -76,10 +81,10 @@ const SignupModal = ({ isOpen, onClose }) => {
         isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
-      <div className="bg-white py-4 w-1/2 max-w-[600px] rounded-lg shadow-lg">
+      <div className="bg-white py-4 sm:w-1/2 max-w-[600px] rounded-lg shadow-lg">
         <div className="flex justify-around items-center align-middle">
           <h2 className="text-2xl ml-8 mb-8 font-semibold pt-16">Sign Up</h2>
-          <div className="relative top-[-3rem] right-[-6rem]">
+          <div className="relative sm:top-[-3rem] sm:right-[-6rem]  top-[-2rem]">
             <button
               className="bg-black text-white font-semibold px-3 py-1 rounded-full"
               onClick={onClose}

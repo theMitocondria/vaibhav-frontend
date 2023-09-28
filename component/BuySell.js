@@ -12,8 +12,8 @@ export default function BuySell() {
 
   const handlebuy = async () => {
     
-    const userinls = JSON.parse(localStorage.getItem('user'));
-   
+    const userinls = JSON.parse(localStorage.getItem('userInfo'));
+    console.log(userinls);
     if(userinls){
       console.log("sending mail");
      console.log('message send');

@@ -44,7 +44,7 @@ const RightNavbar = ({ isOpen, onClose }) => {
   );
 };
 
-export default function Navbar() {
+export default function Navbar2() {
   const router = useRouter()
   const [isRightNavbarOpen, setIsRightNavbarOpen] = useState(false);
 
@@ -61,16 +61,10 @@ export default function Navbar() {
 
       <div className="flex items-center  justify-center">
 
-      <Link href={'#contactus'} className="mx-8 rounded-3xl border-2 px-3 py-1">
+      <Link href={'#contactus'} className="sm:mx-8 rounded-3xl border-2 px-3 py-1 ">
         Contact Us
       </Link>
 
-      <button
-          className="text-black text-xl hover:text-gray-100"
-          onClick={toggleRightNavbar}
-        >
-          ☰
-        </button>
 
         <div>
        

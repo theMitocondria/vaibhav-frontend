@@ -40,8 +40,8 @@ function EPRFORM() {
      
   }
   return (
-    <div className=" p-6  sm:p-8 sm:flex sm:justify-center my-12">
-      <div className=" sm:bg-form sm:w-[30%] sm:text-left  sm:rounded-l-3xl sm:z-12 sm:p-20 text-center">
+    <div className=" p-6  sm:p-8 sm:flex sm:justify-center ">
+      <div className=" sm:bg-form sm:w-[30%] sm:text-left  sm:rounded-l-3xl sm:z-12 sm:p-20 text-center pt-16">
         <p className=" sm:text-white font-extrabold text-4xl mb-2">
           Achieve EPR
         </p>
@@ -84,14 +84,14 @@ function EPRFORM() {
             Submit
           </button>
         </form> */}
-              <form className='bg-white p-10 pt-24 pb-24 leading-7  mt-12 rounded-xl w-[80%] text-center' >
-                <input type="text" required onChange={(e) => { setName(e.target.value)}} placeholder='Name' value={name} className=' mb-3 bord w-[80%] p-1 rounded-md border-black'/>
+              <form className='sm:bg-white sm:p-10 pt-24 pb-24 leading-7  mt-12 rounded-xl w-[80%] text-center' >
+                <input type="text" required onChange={(e) => { setName(e.target.value)}} placeholder='Name' value={name} className=' mb-3 bord sm:w-[80%] p-1 rounded-md border-black'/>
                 <br/>
-                <input type="text" required onChange={(e) => {setEmail(e.target.value)}} placeholder='Gmail' value={email} className=' mb-3 bord w-[80%] p-1 rounded-md outline-1'/>
+                <input type="text" required onChange={(e) => {setEmail(e.target.value)}} placeholder='Gmail' value={email} className=' mb-3 bord sm:w-[80%] p-1 rounded-md outline-1'/>
                 <br/>
-                <input type="number" required onChange={(e) => {setphone(e.target.value)}} placeholder='Phone Number' value={phone} className=' mb-3 bord w-[80%] p-1 rounded-md'/>
+                <input type="number" required onChange={(e) => {setphone(e.target.value)}} placeholder='Phone Number' value={phone} className=' mb-3 bord sm:w-[80%] p-1 rounded-md'/>
                 <br/>
-                <input type="text" required onChange={(e) => {setorgansation(e.target.value)}} placeholder='Organisation Name' value={Organisation} className=' mb-3 bord w-[80%] p-1 rounded-md'/>
+                <input type="text" required onChange={(e) => {setorgansation(e.target.value)}} placeholder='Organisation Name' value={Organisation} className=' mb-3 bord sm:w-[80%] p-1 rounded-md'/>
                 <br/>
                 <button onClick={handlesubmit} className=' bg-black rounded-md text-center p-1 pl-3 pr-3 mt-6 text-lg text-white hover:font-light'>Submit</button>
            </form>

@@ -11,7 +11,7 @@ function SendMessage() {
   const handlesubmit = async (e) => {
     console.log(email, phone, name, Organisation)
     e.preventDefault();
-    const data = await fetch("auth/sendmail",{
+    const data = await fetch('https://register-bpwp.onrender.com/auth/sendmail',{
       method:"POST",
       body:JSON.stringify({
         name ,
@@ -23,6 +23,8 @@ function SendMessage() {
         "Content-Type": "application/json",
       }
      })
+
+     
 
      if(data.status == 200){
       window.alert(' the owner he will contact you soon')

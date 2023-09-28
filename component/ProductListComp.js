@@ -21,7 +21,7 @@ export default function ProductList() {
     },
   ];
   return (
-    <div className=" pb-32 bg-zinc-50">
+    <div className=" pb-32 bg-zinc-50 pt-14">
       {/* <Navbar /> */}
       <div className="flex flex-col items-center text-xl sm:text-3xl md:text-4xl  font-bold lg:text-5xl">
         <p className="p-2 mt-8">Buy sustinale thing and save earth</p>

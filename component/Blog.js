@@ -1,8 +1,8 @@
-"use client";
+'use client';
 import React, { useEffect, useState } from "react";
 
-import BlogCard from "./BlogCard";
-import { data } from "autoprefixer";
+import BlogCard from "./BlogCard.js";
+
 
 export default function Blog() {
   const [Data, setData] = useState([]);
@@ -28,7 +28,7 @@ export default function Blog() {
   }, []);
   
   return (
-    <div className=" bg-zinc-50">
+    <div className=" bg-zinc-50 pt-14">
       {/* <Navbar /> */}
       <div className="flex flex-col items-center text-xl sm:text-3xl md:text-4xl  font-bold lg:text-5xl sm:pt-20">
         <p className="p-2 mt-8">For sustainability, waste management</p>
@@ -47,7 +47,7 @@ export default function Blog() {
             subheading={element.subheading}
             description={element.description}
             image={element.image}
-            key={element.id} // You should add a unique key prop when rendering a list of components
+            key={element._id} // You should add a unique key prop when rendering a list of components
           />
         ))} 
         
