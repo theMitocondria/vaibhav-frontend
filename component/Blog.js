@@ -25,7 +25,10 @@ export default function Blog() {
     }
 
     apiCall();
+   
   }, []);
+
+  console.log(Data)   
   
   return (
     <div className=" bg-zinc-50 pt-14">
