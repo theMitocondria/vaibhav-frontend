@@ -305,28 +305,7 @@ const BlogForm = () => {
           className="w-full border border-gray-300 rounded py-2 px-3"
         />
       </div>
-      <div className="mb-4">
-        <label className="block text-gray-700 font-bold mb-2">
-          Subheadings:
-        </label>
-        {formData.subheading.map((subheading, index) => (
-          <input
-            type="text"
-            key={index}
-            value={subheading}
-            onChange={(e) => handleSubheadingChange(index, e.target.value)}
-            required
-            className="w-full border border-gray-300 rounded py-2 px-3 mb-2"
-          />
-        ))}
-        <button
-          type="button"
-          onClick={addSubheadingField}
-          className="text-blue-500 hover:text-blue-700"
-        >
-          Add Subheading
-        </button>
-      </div>
+    
       <div className="mb-4">
         <label className="block text-gray-700 font-bold mb-2">
           Descriptions:
@@ -346,7 +325,7 @@ const BlogForm = () => {
           className="text-blue-500 hover:text-blue-700"
         >
           Add Description
-        </button>
+        </button> 
       </div>
       {/* <div className="mb-4">
         <label htmlFor="image" className="block text-gray-700 font-bold mb-2">

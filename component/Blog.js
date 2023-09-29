@@ -53,8 +53,6 @@ export default function Blog() {
             key={element._id} // You should add a unique key prop when rendering a list of components
           />
         ))} 
-        
-       
       </div>
 }
     </div>

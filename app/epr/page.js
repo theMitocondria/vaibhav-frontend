@@ -1,6 +1,6 @@
 import EPRFORM from '@/component/EPRFORM'
 import Footer from '@/component/Footer'
-import Navbar2 from '@/component/navbar2'
+import Navbar2 from '@/component/Navbar2'
 
 import React from 'react'
 
